@@ -12,7 +12,7 @@ Error404Page.getLayout = (page: ReactElement) => {
   return (
     <>
       <SiteHead title="Not Found" />
-      <SiteLayout footerTheme="dark">{page}</SiteLayout>
+      <SiteLayout>{page}</SiteLayout>
     </>
   )
 }

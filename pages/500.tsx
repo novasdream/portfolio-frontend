@@ -12,7 +12,7 @@ Error500Page.getLayout = (page: ReactElement) => {
   return (
     <>
       <SiteHead title="Internal Error" />
-      <SiteLayout footerTheme="dark">{page}</SiteLayout>
+      <SiteLayout>{page}</SiteLayout>
     </>
   )
 }
