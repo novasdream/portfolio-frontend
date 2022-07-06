@@ -5,7 +5,7 @@ import { GetServerSidePropsContext, Redirect } from 'next'
 
 import { PATHS } from '@/configs/misc'
 import { createStore } from '@/store/store'
-import { IPageQuery, IStoreState } from '@/types'
+import { IMeta, IPageQuery, IStoreState } from '@/types'
 import { getApolloClientWithInitialState } from '@/utils/apollo'
 
 export const getInitialReduxStateFromInitialApolloState = (
@@ -54,6 +54,7 @@ export const getServerSidePropsForPublicPage = async (
   props: {
     initialApolloState?: Record<string, unknown>
     initialReduxState?: IStoreState
+    meta?: IMeta
   }
 }> => {
   try {
@@ -63,6 +64,8 @@ export const getServerSidePropsForPublicPage = async (
       initialApolloState,
       queries
     )
+
+    console.log(initialReduxState)
 
     return {
       props: {

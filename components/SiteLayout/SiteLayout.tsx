@@ -14,7 +14,7 @@ export const SiteLayout: FC<ISiteLayoutProps> = memo(
       <SiteHeader />
       <main
         className={classNames(
-          'flex flex-col min-h-screen bg-secondary',
+          'flex flex-col min-h-screen bg-secondary px-5 lg:px-16',
           className
         )}
       >

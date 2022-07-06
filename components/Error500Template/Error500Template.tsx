@@ -23,7 +23,6 @@ export const Error500Template: FC<IError500TemplateProps> = memo(() => {
         <h1 className="mb-4 font-display text-[4rem] md:text-[10rem] font-black tracking-widest leading-none text-white animate-pulse">
           5<span className="text-primary animate-bounce">0</span>0
         </h1>
-
         <p className="mx-auto font-body text-base md:text-xl font-medium text-center text-white">
           Something went wrong
         </p>
