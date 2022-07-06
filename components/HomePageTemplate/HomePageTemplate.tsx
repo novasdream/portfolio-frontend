@@ -8,8 +8,6 @@ export const HomePageTemplate: FC<IHomePageTemplateProps> = memo(() => {
   return (
     <>
       <HomeHeroSection />
-      <HomeHeroSection />
-      <HomeHeroSection />
     </>
   )
 })
