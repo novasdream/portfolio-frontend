@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CloseIcon /> should has correct classname 1`] = `
+<svg
+  aria-hidden="true"
+  className="test-classname"
+  fill="none"
+  height={16}
+  viewBox="0 0 16 16"
+  width={16}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M14.4 1.6001L1.59998 14.4001M14.4 14.4001L1.59998 1.6001"
+    stroke="#1f2837"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    strokeWidth="2"
+  />
+</svg>
+`;
+
+exports[`<CloseIcon /> should has correct color 1`] = `
+<svg
+  aria-hidden="true"
+  className=""
+  fill="none"
+  height={16}
+  viewBox="0 0 16 16"
+  width={16}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M14.4 1.6001L1.59998 14.4001M14.4 14.4001L1.59998 1.6001"
+    stroke="#000"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    strokeWidth="2"
+  />
+</svg>
+`;
+
+exports[`<CloseIcon /> should has correct width from height prop 1`] = `
+<svg
+  aria-hidden="true"
+  className=""
+  fill="none"
+  height={20}
+  viewBox="0 0 16 16"
+  width={16}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M14.4 1.6001L1.59998 14.4001M14.4 14.4001L1.59998 1.6001"
+    stroke="#1f2837"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    strokeWidth="2"
+  />
+</svg>
+`;
+
+exports[`<CloseIcon /> should has correct width from width prop 1`] = `
+<svg
+  aria-hidden="true"
+  className=""
+  fill="none"
+  height={16}
+  viewBox="0 0 16 16"
+  width={20}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M14.4 1.6001L1.59998 14.4001M14.4 14.4001L1.59998 1.6001"
+    stroke="#1f2837"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    strokeWidth="2"
+  />
+</svg>
+`;
+
+exports[`<CloseIcon /> should renders correct <CloseIcon /> 1`] = `
+<svg
+  aria-hidden="true"
+  className=""
+  fill="none"
+  height={16}
+  viewBox="0 0 16 16"
+  width={16}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M14.4 1.6001L1.59998 14.4001M14.4 14.4001L1.59998 1.6001"
+    stroke="#1f2837"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    strokeWidth="2"
+  />
+</svg>
+`;

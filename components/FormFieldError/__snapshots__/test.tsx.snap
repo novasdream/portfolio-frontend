@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormFieldError /> should className form className prop 1`] = `
+<FormikConnect(ErrorMessageImpl)
+  className="form-error test-classname"
+  component="div"
+  name="test"
+/>
+`;
+
+exports[`<FormFieldError /> should renders correct <FormFieldError /> 1`] = `
+<FormikConnect(ErrorMessageImpl)
+  className="form-error"
+  component="div"
+  name="test"
+/>
+`;

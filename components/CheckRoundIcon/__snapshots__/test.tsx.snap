@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CheckRoundIcon /> should renders correct <CheckRoundIcon /> 1`] = `
+<Fragment>
+  <svg
+    className="form-field-checkbox"
+    fill="none"
+    height={24}
+    viewBox="0 0 24 24"
+    width={24}
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <circle
+      className="circle-border"
+      cx="12"
+      cy="12"
+      r="11.5"
+    />
+  </svg>
+</Fragment>
+`;

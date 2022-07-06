@@ -1,0 +1,99 @@
+@layer components {
+  .btn {
+    @apply inline-flex justify-center font-medium items-center tracking-widest leading-none text-center border;
+
+    &:disabled {
+      @apply opacity-50 cursor-not-allowed;
+    }
+
+    &_outline {
+      @apply bg-transparent text-secondary border-gray-2;
+
+      &:hover {
+        @apply text-white bg-gray-1 border-gray-2;
+      }
+
+      &-primary {
+        @apply bg-transparent text-primary border-primary;
+
+        &:hover {
+          @apply bg-primary text-white;
+        }
+      }
+    }
+
+    &_borderless {
+      @apply bg-transparent text-secondary border-none;
+
+      &:hover {
+        @apply text-primary;
+      }
+
+      &-primary {
+        @apply bg-transparent text-primary border-none;
+
+        &:hover {
+          @apply underline;
+        }
+      }
+    }
+
+    &_primary {
+      @apply text-white border-primary bg-primary;
+
+      &:hover {
+        @apply border-primary-dark bg-primary-dark;
+      }
+    }
+
+    &_invert-primary {
+      @apply bg-white border-white text-primary;
+
+      &:hover {
+        @apply text-white bg-transparent border-white;
+      }
+    }
+
+    &_danger {
+      @apply text-white border-danger bg-danger;
+
+      &:hover {
+        @apply border-danger-dark bg-danger-dark;
+      }
+    }
+
+    &_invert-danger {
+      @apply bg-white border-white text-danger;
+
+      &:hover {
+        @apply text-white border-white bg-danger;
+      }
+    }
+
+    &_size_default {
+      @apply py-3 px-6 text-sm;
+    }
+
+    &_size_small {
+      padding-top: 0.4375rem;
+      padding-bottom: 0.4375rem;
+      font-size: 0.625rem;
+
+      @apply px-2;
+
+      @screen md {
+        font-size: 0.8125rem;
+
+        @apply py-3 px-6;
+      }
+    }
+
+    &_rounded_default {
+      @apply rounded-sm;
+    }
+
+    &_rounded_large {
+      border-radius: 6.25rem;
+    }
+  }
+}

@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SiteFooter /> should renders correct <SiteFooter /> 1`] = `
+<footer
+  className="relative pt-10 pb-[50px] lg:pt-[46px] mt-auto mb-0 px-4 bg-[#fafbfe]"
+>
+  <Container>
+    <Row
+      className="flex-row justify-center mb-8"
+    >
+      <SiteLogo
+        className="my-2"
+        theme="light"
+      />
+    </Row>
+    <Row
+      className="flex-row justify-center mb-10"
+    >
+      <FooterMenu
+        menu={
+          Array [
+            Object {
+              "key": "footer-nav-key-investor-faq",
+              "title": "Investor FAQ",
+              "url": "/faq#investor",
+            },
+            Object {
+              "key": "footer-nav-key-business-faq",
+              "title": "Business FAQ",
+              "url": "/faq#business",
+            },
+            Object {
+              "key": "footer-nav-key-about-us",
+              "title": "About Us",
+              "url": "/about-us",
+            },
+            Object {
+              "key": "footer-nav-key-contact-us",
+              "title": "Contact Us",
+              "url": "/contact",
+            },
+          ]
+        }
+        theme="light"
+      />
+    </Row>
+    <Row
+      className="flex-row justify-center"
+    >
+      <p
+        className="lg:max-w-[870px] text-xs font-normal leading-[20px] text-justify text-gray-1"
+      >
+        By using this website, you accept our 
+        <PlainLink
+          href="/terms-of-use"
+          isExternal={true}
+          target="_blank"
+        >
+          Terms of Use
+        </PlainLink>
+         and 
+        <PlainLink
+          href="/privacy-policy"
+          isExternal={true}
+          target="_blank"
+        >
+          Privacy Policy
+        </PlainLink>
+        . The information on this site does not represent an offer to buy or sell securities.
+        <br />
+        <br />
+        Flatrock offers qualified investors the opportunity to invest in private companies. However, we do not make recommendations regarding the appropriateness of a particular opportunity for any particular investor. 
+        <em>
+          We are not investment advisers.
+        </em>
+          Investors must make their own investment decisions, either alone or with their personal advisors.Investing in private companies can be risky and unpredictable.
+        <br />
+        <br />
+        Some of the risks include a lack of liquidity, a lack of professional management, lack of access to capital, lack of financial controls, a concentration of the business in a small number of customers, reliance on a small management team, lack of financial information, and a lack of the shareholder protections associated with public companies. You should invest in small companies only if you can afford to lose your investment.
+        <br />
+        <br />
+        We may provide financial projections for some of the investment opportunities listed on the Site. 
+        <em>
+          All such financial projections are only estimates based on current conditions and current assumptions.
+        </em>
+          The actual result of any investment is likely to be different than the original projection, often by a large amount. Neither we nor anyone else guaranties the results reflected in financial projections.
+        <br />
+        <br />
+        * Target IRR is a projection based on capital gains (from an exit) and preferred dividends. These returns are not guaranteed and will vary by investment.
+      </p>
+    </Row>
+  </Container>
+</footer>
+`;

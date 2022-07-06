@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MenuToggleButton /> should render correct html with default props 1`] = `
+<button
+  aria-label="Toggle Menu"
+  className="xl:hidden h-full focus:outline-none focus:shadow-outline"
+  onClick={[MockFunction]}
+>
+  <ToggleMenuIcon />
+</button>
+`;

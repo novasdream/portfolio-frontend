@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal /> should has no animation 1`] = `
+<ShadowBackdrop>
+  <div
+    className="relative m-auto w-full bg-white max-w-[56.25rem] rounded-lg shadow-2xl overflow-hidden animate-none"
+  >
+    <CloseButton
+      className="absolute top-6 right-6 z-10"
+      colorHex="#fff"
+      height={20}
+      onClick={[MockFunction]}
+      width={20}
+    />
+    test
+  </div>
+</ShadowBackdrop>
+`;
+
+exports[`<Modal /> should renders correct <Modal /> 1`] = `
+<ShadowBackdrop>
+  <div
+    className="relative m-auto w-full bg-white max-w-[56.25rem] rounded-lg shadow-2xl overflow-hidden motion-reduce:animate-none animate-flip-in-x"
+  >
+    <CloseButton
+      className="absolute top-6 right-6 z-10"
+      colorHex="#fff"
+      height={20}
+      onClick={[MockFunction]}
+      width={20}
+    />
+    test
+  </div>
+</ShadowBackdrop>
+`;

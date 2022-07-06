@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SiteHead /> should renders correct <SiteHead /> 1`] = `
+<Head>
+  <title>
+    Flatrock - Invest in private companies
+  </title>
+  <meta
+    charSet="utf-8"
+  />
+  <meta
+    content="Invest in private companies"
+    name="description"
+  />
+  <meta
+    property="og:url"
+  />
+  <meta
+    content="website"
+    property="og:type"
+  />
+  <meta
+    content="Flatrock - Invest in private companies"
+    property="og:title"
+  />
+  <meta
+    content="Invest in private companies"
+    property="og:description"
+  />
+  <link
+    rel="preconnect"
+  />
+</Head>
+`;

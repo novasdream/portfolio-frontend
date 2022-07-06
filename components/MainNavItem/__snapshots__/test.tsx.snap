@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MainNavItem /> should render correct html with default props 1`] = `
+<li
+  className="nav-item relative"
+  key="test-tilte"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <Link>
+    <a
+      className="flex justify-center items-center select-none"
+    >
+      test-tilte
+    </a>
+  </Link>
+</li>
+`;

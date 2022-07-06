@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Col /> should renders children 1`] = `
+<div
+  className="px-4 w-full"
+>
+  test
+</div>
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CalendlyWidgetScript /> should renders correct <CalendlyWidgetScript /> 1`] = `
+<script
+  async={true}
+  src="https://assets.calendly.com/assets/external/widget.js"
+  type="text/javascript"
+/>
+`;

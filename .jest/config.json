@@ -1,0 +1,31 @@
+{
+  "rootDir": "../",
+  "setupFiles": [
+    "<rootDir>/.jest/register-context.js"
+  ],
+  "moduleNameMapper": {
+    "@/components": ["<rootDir>/components/index.ts"],
+    "@/constants": ["<rootDir>/constants/index.ts"],
+    "@/hooks": ["<rootDir>/hooks/index.ts"],
+    "@/types": ["<rootDir>/types/index.ts"],
+    "@/queries": ["<rootDir>/queries/index.ts"],
+    "@/fixtures": ["<rootDir>/fixtures/index.ts"],
+    "@/store/(.*)": ["<rootDir>/store/$1"],
+    "@/utils/(.*)": ["<rootDir>/utils/$1"],
+    "@/configs/(.*)": ["<rootDir>/configs/$1"],
+    "@/schemas": ["<rootDir>/schemas/index.ts"],
+    "@/temp/(.*)": ["<rootDir>/$1"],
+    "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js"
+  },
+  "setupFilesAfterEnv": [
+    "<rootDir>/.jest/setupTests.js"
+  ],
+  "transform": {
+    "^.+\\.(t|j)sx?$": ["@swc/jest"],
+    ".+\\.(css|styl|less|sass|scss)$": "jest-css-modules-transform"
+  },
+  "transformIgnorePatterns": [
+    "/node_modules/(?!register-service-worker).+\\.js$"
+  ],
+  "testPathIgnorePatterns": [ "<rootDir>/cypress"]
+}

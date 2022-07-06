@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> should renders correct <Input /> 1`] = `
+<label>
+  <input
+    className="disabled:bg-gray-5"
+  />
+</label>
+`;

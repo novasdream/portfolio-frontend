@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ArrowUpIcon /> should renders correct <ArrowUpIcon /> 1`] = `
+<svg
+  className="arrow-up-icon"
+  fill="none"
+  height={6}
+  viewBox="0 0 12 6"
+  width={12}
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M1.5 5.25L6 0.75L10.5 5.25"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    strokeWidth="1.5"
+  />
+</svg>
+`;

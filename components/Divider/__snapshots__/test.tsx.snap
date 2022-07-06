@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Divider /> should renders correct <Divider /> 1`] = `
+<Fragment>
+  <div
+    className="h-px flex items-center my-1 grow"
+  />
+</Fragment>
+`;

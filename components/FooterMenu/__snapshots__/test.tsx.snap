@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FooterMenu /> should renders correct html 1`] = `
+<div
+  className="flex flex-row justify-around items-center text-sm font-normal lg:space-x-[60px] leading-[22px] max-w-[472px] w-full text-secondary"
+>
+  <div
+    key="About"
+  >
+    <Link
+      href="/about"
+    >
+      <a
+        className="hover:text-primary"
+      >
+        About
+      </a>
+    </Link>
+  </div>
+  <div
+    key="Example"
+  >
+    <Link
+      href="https://example.com"
+    >
+      <a
+        className="hover:text-primary"
+      >
+        Example
+      </a>
+    </Link>
+  </div>
+</div>
+`;

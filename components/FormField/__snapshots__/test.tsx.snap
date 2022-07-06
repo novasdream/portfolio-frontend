@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormField /> should renders correct <FormField /> 1`] = `
+<Field
+  name="test-name"
+>
+  <Component />
+</Field>
+`;

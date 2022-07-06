@@ -1,0 +1,19 @@
+@layer base {
+  :root {
+    font-size: 16px;
+    line-height: 1.6;
+
+    @apply text-secondary;
+    @apply font-light;
+    @apply font-body;
+  }
+
+  b,
+  strong {
+    @apply font-bold;
+  }
+
+  small {
+    @apply text-sm;
+  }
+}

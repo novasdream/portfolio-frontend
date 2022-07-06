@@ -1,0 +1,87 @@
+@layer components {
+  .dropdown-menu-item {
+    @apply flex font-medium lg:font-medium items-center text-left text-sm py-1 px-4 text-secondary rounded-sm;
+  }
+
+  .nav-item {
+    @apply flex text-base font-display text-white text-center font-bold lg:font-semibold border-b border-t border-transparent items-center justify-center py-1 my-3 mx-auto lg:mx-5;
+
+    svg.arrow-down-icon {
+      path {
+        @apply stroke-white;   
+      }
+    }
+
+    svg.arrow-up-icon {
+      path {
+        @apply stroke-white;   
+      }
+    }
+  }
+
+  .nav-item:hover {
+    @apply text-primary border-b-primary transition-all duration-200;
+
+    svg.arrow-down-icon {
+      path {
+        @apply stroke-primary;
+      }
+    }
+
+    svg.arrow-up-icon {
+      path {
+        @apply stroke-primary;
+      }
+    }
+  }
+
+  .nav-item-active {
+    @apply text-primary;
+
+    svg.arrow-down-icon {
+      path {
+        @apply stroke-primary;
+      }
+    }
+
+    svg.arrow-up-icon {
+      path {
+        @apply stroke-primary;
+      }
+    }
+  }
+
+  .text-underline-offset-2 {
+    text-underline-offset: 2px;
+  }
+
+  svg.delete-icon {
+    path {
+      @apply stroke-[#FF6F55];
+    }
+  }
+
+  svg.delete-icon:hover {
+    path {
+      @apply stroke-[#FF6F55];
+    }
+  }
+
+  svg.delete-icon.delete-icon-active {
+    path {
+      @apply stroke-[#FF6F55];
+    }
+  }
+
+  svg.arrow-up-icon {
+    path {
+      @apply stroke-secondary;
+    }
+  }
+
+  svg.arrow-down-icon {
+    path {
+      @apply stroke-secondary;
+    }
+  }
+}

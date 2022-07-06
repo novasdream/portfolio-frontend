@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PlainLink /> should renders correct <PlainLink /> 1`] = `
+<Fragment>
+  <span
+    className="hover:underline text-primary"
+  >
+    <Link
+      href="/test-link"
+    />
+  </span>
+</Fragment>
+`;

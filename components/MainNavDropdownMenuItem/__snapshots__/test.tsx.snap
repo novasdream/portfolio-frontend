@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MainNavDropdownMenuItem /> should renders correct <MainNavDropdownMenuItem /> 1`] = `
+<li
+  className="dropdown-menu-item hover:bg-[#EFF1FC]"
+  key="test-tilte"
+  onClick={[Function]}
+>
+  <Link>
+    <a
+      className="block py-3 px-6 xl:px-4 w-full"
+    >
+      test-tilte
+    </a>
+  </Link>
+</li>
+`;

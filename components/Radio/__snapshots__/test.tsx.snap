@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Radio /> should renders correct <Radio /> 1`] = `
+<div
+  className="radio-button"
+  data-value="Test value"
+>
+  Test children
+</div>
+`;

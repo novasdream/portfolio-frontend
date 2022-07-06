@@ -1,0 +1,25 @@
+@layer components {
+  .react-mark-down-wrapper {
+    p {
+      padding-bottom: 0.75rem;
+    }
+
+    a {
+      @apply underline hover:text-primary;
+    }
+
+    ol {
+      list-style-type: decimal;
+      padding-inline-start: 2rem !important;
+      margin-top: 0.75rem !important;
+      margin-bottom: 0.75rem !important;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-inline-start: 2rem !important;
+      margin-top: 0.75rem !important;
+      margin-bottom: 0.75rem !important;
+    }
+  }
+}

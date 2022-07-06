@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormFieldRadioGroup /> should renders correct <FormFieldRadioGroup /> 1`] = `
+<Field
+  name="test-name"
+>
+  <Component />
+</Field>
+`;

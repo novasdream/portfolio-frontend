@@ -1,0 +1,92 @@
+@layer components {
+  .form-label {
+    @apply inline-block p-0 mb-2 text-base font-bold;
+  }
+
+  .form-field {
+    @apply block py-2 px-4 w-full text-base font-normal placeholder-gray-2 bg-white border hover:border-primary truncate border-gray-2;
+
+    min-height: 2.5rem;
+  }
+
+  svg.form-field-checkbox {
+    @apply text-base font-normal placeholder-gray-2 border-none truncate;
+    
+    width: 24px;
+    height: 24px;
+
+    circle.circle-border {
+      stroke: #ebecf1;
+    }
+
+    path.path-border {
+      stroke: #ebecf1;
+    }
+  }
+
+  svg.form-field-checkbox:hover {
+    circle.circle-border {
+      stroke: #babdcb;
+    }
+
+    circle.circle-inner {
+      fill: #babdcb;
+    }
+
+    path.path-border {
+      stroke: #babdcb;
+    }
+  }
+
+  svg.form-field-checkbox-active {
+    circle.circle-border {
+      stroke: #558fff;
+    }
+
+    circle.circle-inner {
+      fill: #558fff;
+    }
+
+    rect.rect-inner {
+      fill: #558fff;
+    }
+
+    path.path-checkmark {
+      stroke: #ffffff;
+    }
+  }
+
+  svg.form-field-checkbox-active:hover {
+    circle.circle-border {
+      stroke: #3d7fff;
+    }
+
+    circle.circle-inner {
+      fill: #3d7fff;
+    }
+
+    rect.rect-inner {
+      fill: #3d7fff;
+    }
+
+    path.path-checkmark {
+      stroke: #ffffff;
+    }
+  }
+
+  .form-select {
+    @apply block py-2 pl-4 pr-6 w-full text-base font-normal placeholder-gray-2 bg-white appearance-none border truncate border-gray-2;
+
+    min-height: 2.5rem;
+  }
+
+  .form-error {
+    @apply text-xs text-danger font-normal;
+    margin-top: 5px;
+  }
+
+  .form-success {
+    @apply mt-1 text-xs text-secondary font-normal;
+  }
+
+}

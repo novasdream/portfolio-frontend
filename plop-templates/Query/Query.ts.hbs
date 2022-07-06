@@ -1,0 +1,12 @@
+import { gql } from '@apollo/client'
+
+export const {{constantCase name}}_FIELDS = `
+`
+
+export const {{constantCase name}}_QUERY = gql`
+  query {{camelCase name}}Query {
+    {{camelCase name}} {
+      ${ {{constantCase name}}_FIELDS}
+    }
+  }
+`

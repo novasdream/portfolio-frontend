@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MainNav /> should renders correct hidden <MainNav /> 1`] = `
+<nav
+  className="motion-reduce:animate-none animate-slide-in-left fixed inset-0 pb-16 lg:animate-none lg:flex lg:flex-grow lg:items-center lg:pt-0 lg:py-0 lg:static lg:ml-16 bg-[#0A1134] lg:bg-transparent hidden"
+>
+  <CloseButton
+    className="lg:hidden absolute top-6 right-5 w-3 h-3"
+    colorHex="#fff"
+    height={15}
+    onClick={[Function]}
+    width={15}
+  />
+  <div
+    className="lg:hidden py-[18px] px-5 border-b border-[#262C50]"
+  >
+    <SiteLogo />
+  </div>
+  <div
+    className="lg:mr-auto lg:mb-0"
+  >
+    <ul
+      className="flex flex-col lg:flex-row lg:mr-auto"
+    >
+      <MainNavItem
+        active={false}
+        handleClick={[MockFunction]}
+        item={
+          Object {
+            "key": "main-nav-key-about",
+            "title": "About",
+            "url": "/about-us",
+          }
+        }
+        key="main-nav-key-about"
+      />
+      <MainNavItem
+        active={false}
+        handleClick={[MockFunction]}
+        item={
+          Object {
+            "key": "main-nav-key-faq",
+            "title": "FAQ",
+            "url": "/faq",
+          }
+        }
+        key="main-nav-key-faq"
+      />
+      <MainNavItem
+        active={false}
+        handleClick={[MockFunction]}
+        item={
+          Object {
+            "key": "main-nav-key-contact",
+            "title": "Contact",
+            "url": "/contact",
+          }
+        }
+        key="main-nav-key-contact"
+      />
+    </ul>
+  </div>
+  <Divider
+    className="lg:hidden mx-4 bg-[#262C50]"
+  />
+  <div
+    className="lg:flex lg:items-center lg:ml-7"
+  >
+    <ul
+      className="lg:flex lg:items-center"
+    >
+      <MainNavItem
+        active={false}
+        handleClick={[MockFunction]}
+        item={
+          Object {
+            "key": "main-nav-key-raise-capital",
+            "title": "Raise Capital",
+            "url": "/raise-capital",
+          }
+        }
+        smallOnMobile={true}
+      >
+        <RaiseCapitalIcon
+          className="inline mr-2"
+        />
+      </MainNavItem>
+    </ul>
+    <Divider
+      className="lg:hidden mx-4 bg-[#262C50]"
+    />
+    <Divider
+      className="hidden lg:inline-block h-[1rem] bg-[#484F79]"
+      isVertical={true}
+    />
+    <ul
+      className="lg:flex lg:items-center"
+    >
+      <MainNavItem
+        active={false}
+        handleClick={[MockFunction]}
+        item={
+          Object {
+            "key": "main-nav-key-sign-in",
+            "title": "Sign In",
+            "url": "/auth/signin",
+          }
+        }
+        smallOnMobile={true}
+      />
+    </ul>
+    <div
+      className="px-4 lg:px-0 lg:ml-4 w-full lg:w-[7.125rem]"
+    >
+      <ButtonLink
+        className="py-4 w-full h-full text-sm lg:font-semibold rounded-sm lg:rounded-none"
+        href="/auth/signup"
+      >
+        Sign Up
+      </ButtonLink>
+    </div>
+  </div>
+</nav>
+`;

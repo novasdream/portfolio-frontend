@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PopoverButton /> should renders correct <PopoverButton /> 1`] = `
+<button
+  className="inline-flex relative items-center ml-1"
+  onClick={[Function]}
+  onMouseEnter={[Function]}
+/>
+`;

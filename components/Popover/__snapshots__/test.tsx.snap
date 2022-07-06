@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Popover /> should renders correct <Popover /> 1`] = `
+<div
+  className="absolute z-10 w-[80vw] md:w-auto md:right-full md:left-auto md:top-0 md:mr-1"
+>
+  <div
+    className="py-1 px-3 bg-white rounded motion-reduce:animate-none animate-grow-vertical"
+    style={
+      Object {
+        "boxShadow": "0px 2px 8px rgba(12, 8, 21, 0.2)",
+      }
+    }
+  >
+    Test children
+  </div>
+</div>
+`;

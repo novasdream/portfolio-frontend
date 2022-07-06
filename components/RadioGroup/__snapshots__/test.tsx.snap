@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RadioGroup /> should renders correct <RadioGroup /> 1`] = `
+<div
+  className=""
+>
+  <label>
+    <div>
+      <div
+        className="inline-flex"
+      >
+        <div
+          className="flex items-center mr-5 radio text-secondary px-2 min-w-[2.5rem] min-h-[2.5rem]"
+          key="0"
+          onClick={[Function]}
+        >
+          <CheckRoundIcon
+            className="mr-2 motion-reduce:animate-none animate-grow-vertical"
+            isActive={true}
+          />
+          <div
+            className="inline-block"
+          >
+            <Radio
+              value={1}
+            >
+              Test Radio1
+            </Radio>
+          </div>
+        </div>
+        <div
+          className="flex items-center mr-5 radio text-secondary px-2 min-w-[2.5rem] min-h-[2.5rem]"
+          key="1"
+          onClick={[Function]}
+        >
+          <CheckRoundIcon
+            className="mr-2 motion-reduce:animate-none animate-grow-vertical"
+            isActive={false}
+          />
+          <div
+            className="inline-block"
+          >
+            <Radio
+              value={2}
+            >
+              Test Radio2
+            </Radio>
+          </div>
+        </div>
+      </div>
+    </div>
+  </label>
+</div>
+`;

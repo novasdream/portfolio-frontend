@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Error500Template /> should renders correct <Error500Template /> 1`] = `
+<main
+  className="flex flex-grow justify-center items-center text-secondary bg-[#FAFBFE]"
+  style={
+    Object {
+      "maxHeight": "NaNpx",
+      "minHeight": "NaNpx",
+    }
+  }
+>
+  <div
+    className="flex flex-col justify-center items-center py-12 md:py-[100px] px-12 md:px-[140px] mx-auto max-w-[80%] bg-white shadow-md"
+  >
+    <h1
+      className="mb-4 text-[4rem] md:text-[10rem] font-black tracking-widest leading-none font-display"
+    >
+      5
+      <span
+        className="text-[#00B7FF]"
+      >
+        0
+      </span>
+      0
+    </h1>
+    <p
+      className="mx-auto font-body text-base md:text-xl font-medium text-center uppercase"
+    >
+      Something went wrong
+    </p>
+  </div>
+</main>
+`;
