@@ -9,4 +9,5 @@ export interface IProfile {
   state?: string
   city?: string
   address?: string
+  calendly?: string
 }

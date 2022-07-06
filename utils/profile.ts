@@ -10,5 +10,6 @@ export const normalizeProfile = (raw: IRawProfile): IProfile => ({
   state: raw?.attributes?.state || '',
   city: raw?.attributes?.city || '',
   address: raw?.attributes?.address || '',
-  avatar: raw?.attributes?.avatar?.attributes?.url || ''
+  avatar: raw?.attributes?.avatar?.attributes?.url || '',
+  calendly: raw?.attributes?.calendly || ''
 })

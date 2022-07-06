@@ -13,5 +13,6 @@ export interface IRawProfile {
     city?: string
     address?: string
     avatar?: IRawUploadFile
+    calendly?: string
   }
 }
