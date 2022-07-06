@@ -17,6 +17,7 @@ export const SiteLogo: FC<ISiteLogoProps> = memo(
             height={height}
             src="/images/phoenix-logo.png"
             className="animate-pulse"
+            alt="logo"
           />
         </a>
       </Link>

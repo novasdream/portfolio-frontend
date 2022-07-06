@@ -4,7 +4,7 @@ import { Container, Divider, Row } from '@/components'
 
 export interface ISiteFooterProps {}
 
-export const SiteFooter: FC<ISiteFooterProps> = memo(({}: ISiteFooterProps) => {
+export const SiteFooter: FC<ISiteFooterProps> = memo(() => {
   return (
     <footer className="fixed bottom-0 w-full backdrop-blur-md">
       <Container className="flex flex-col !px-0 w-full lg:flex-no-wrap">
