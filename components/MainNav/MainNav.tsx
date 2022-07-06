@@ -19,11 +19,12 @@ export const MainNav: FC<IMainNavProps> = memo(
         className={classNames(
           'motion-reduce:animate-none animate-slide-in-left fixed inset-0 pb-16 lg:animate-none lg:flex lg:flex-grow lg:items-center lg:pt-0 lg:py-0 lg:static lg:ml-30 bg-secondary lg:bg-transparent lg:flex-grow',
           {
-            hidden: !isShown
+            hidden: !isShown,
+            'min-h-screen': isShown
           }
         )}
       >
-        <div className="flex lg:hidden justify-between items-center py-4 px-5 border-b border-[#262C50]">
+        <div className="flex lg:hidden justify-between items-center py-4 px-5 border-b border-[#333333]">
           <SiteLogo />
 
           <CloseButton

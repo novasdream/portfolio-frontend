@@ -37,7 +37,7 @@ export const SiteHeader: FC<ISiteHeaderProps> = memo(() => {
           />
         </Row>
         <Row className="px-5 lg:px-16">
-          <Divider className="bg-gray-1" />
+          <Divider className="bg-[#333333]" />
         </Row>
       </Container>
     </header>
