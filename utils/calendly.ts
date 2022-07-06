@@ -1,9 +1,7 @@
-import { CALENDLY_URL } from '@/configs/env'
-
-export const initCalendlyPopupWidget = () => {
+export const initCalendlyPopupWidget = (url: string) => {
   if (typeof window === 'undefined') {
     return
   }
 
-  window.Calendly.showPopupWidget(CALENDLY_URL)
+  window.Calendly.showPopupWidget(url)
 }

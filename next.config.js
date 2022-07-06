@@ -2,8 +2,7 @@
 const nextOptions = {
   env: {
     APP_ENV: process.env.APP_ENV,
-    STRAPI_GRAPHQL_URL: process.env.STRAPI_GRAPHQL_URL,
-    CALENDLY_URL: process.env.CALENDLY_URL
+    STRAPI_GRAPHQL_URL: process.env.STRAPI_GRAPHQL_URL
   },
   outputFileTracing: false,
   poweredByHeader: false,
