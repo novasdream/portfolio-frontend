@@ -10,4 +10,8 @@ export interface IProfile {
   city?: string
   address?: string
   calendly?: string
+  linkedin?: string
+  google?: string
+  stackoverflow?: string
+  github?: string
 }

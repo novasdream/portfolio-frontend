@@ -11,5 +11,9 @@ export const normalizeProfile = (raw: IRawProfile): IProfile => ({
   city: raw?.attributes?.city || '',
   address: raw?.attributes?.address || '',
   avatar: raw?.attributes?.avatar?.attributes?.url || '',
-  calendly: raw?.attributes?.calendly || ''
+  calendly: raw?.attributes?.calendly || '',
+  linkedin: raw?.attributes?.linkedin || '',
+  google: raw?.attributes?.google || '',
+  github: raw?.attributes?.github || '',
+  stackoverflow: raw?.attributes?.stackoverflow || ''
 })

@@ -38,16 +38,6 @@ export const MainNavItem: FC<IMainNavItemProps> = memo(
           handleClick(item)
         }
       }}
-      onMouseEnter={() => {
-        if (handleClick) {
-          handleClick(item, true)
-        }
-      }}
-      onMouseLeave={() => {
-        if (handleClick) {
-          handleClick(item, false)
-        }
-      }}
     >
       {external ? (
         <a

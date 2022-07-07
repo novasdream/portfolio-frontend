@@ -23,8 +23,8 @@ export const SiteHeader: FC<ISiteHeaderProps> = memo(() => {
 
   return (
     <header className="lg:flex fixed top-0 z-[9999] lg:justify-between lg:items-center lg:mx-auto w-full bg-secondary lg:bg-transparent backdrop-blur-md lg:flex-no-wrap">
-      <Container className="flex flex-col !px-0 w-full lg:flex-no-wrap">
-        <Row className="flex justify-between items-center px-5 lg:px-16 mt-4 lg:mt-4 mb-2 lg:mb-0">
+      <Container className="flex flex-col px-5 lg:px-16 w-full lg:flex-no-wrap">
+        <Row className="flex justify-between items-center mt-4 lg:mt-4 mb-2 lg:mb-0">
           <SiteLogo />
           <MainNav
             isShown={isExpandMenu}
@@ -36,7 +36,7 @@ export const SiteHeader: FC<ISiteHeaderProps> = memo(() => {
             onButtonClick={() => setIsExpandMenu(!isExpandMenu)}
           />
         </Row>
-        <Row className="px-5 lg:px-16">
+        <Row>
           <Divider className="bg-[#333333]" />
         </Row>
       </Container>

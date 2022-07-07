@@ -1,7 +1,7 @@
 import classNames from 'classnames'
 import { FC, memo, ReactNode } from 'react'
 
-import { SiteFooter, SiteHeader } from '@/components'
+import { Container, SiteFooter, SiteHeader } from '@/components'
 
 export interface ISiteLayoutProps {
   children?: ReactNode
@@ -14,11 +14,11 @@ export const SiteLayout: FC<ISiteLayoutProps> = memo(
       <SiteHeader />
       <main
         className={classNames(
-          'flex flex-col min-h-screen bg-secondary px-5 lg:px-16',
+          'flex flex-col min-h-screen bg-secondary',
           className
         )}
       >
-        {children}
+        <Container className="px-5 lg:px-16">{children}</Container>
       </main>
       <SiteFooter />
     </>

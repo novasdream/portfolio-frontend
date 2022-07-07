@@ -14,5 +14,9 @@ export interface IRawProfile {
     address?: string
     avatar?: IRawUploadFile
     calendly?: string
+    linkedin?: string
+    google?: string
+    stackoverflow?: string
+    github?: string
   }
 }

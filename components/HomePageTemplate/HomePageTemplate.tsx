@@ -1,10 +1,8 @@
-import { FC, memo } from 'react'
+import { memo } from 'react'
 
 import { HomeHeroSection } from '@/components'
 
-export interface IHomePageTemplateProps {}
-
-export const HomePageTemplate: FC<IHomePageTemplateProps> = memo(() => {
+export const HomePageTemplate = memo(() => {
   return (
     <>
       <HomeHeroSection />

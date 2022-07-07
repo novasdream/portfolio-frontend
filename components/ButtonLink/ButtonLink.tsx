@@ -8,6 +8,7 @@ export interface IButtonLinkProps
   href: string
   theme?: 'primary' | 'outline-rounded'
   isExternal?: boolean
+  isIcon?: boolean
   target?: string
   className?: string
   download?: boolean
@@ -21,6 +22,7 @@ export const ButtonLink: FC<IButtonLinkProps> = memo(
     theme = 'primary',
     className = '',
     isExternal = false,
+    isIcon = false,
     target = '_self',
     ...props
   }) => {
@@ -38,7 +40,7 @@ export const ButtonLink: FC<IButtonLinkProps> = memo(
         <a
           ref={btnRef}
           href={href}
-          className={linkClassName}
+          className={isIcon ? '' : linkClassName}
           aria-label={target === '_blank' ? 'opens in new window' : ''}
           target={target}
           rel={target === '_blank' ? 'noopener' : ''}

@@ -10,6 +10,15 @@ export const GET_PROFILE_QUERY = gql`
           lastName
           headline
           bio
+          country
+          state
+          city
+          address
+          calendly
+          linkedin
+          google
+          stackoverflow
+          github
           avatar {
             data {
               attributes {

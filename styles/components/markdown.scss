@@ -1,7 +1,13 @@
 @layer components {
   .react-mark-down-wrapper {
+    @apply font-body text-base lg:text-lg text-white;
+
+    h3 {
+      @apply font-display text-lg lg:text-2xl pt-4 lg:pt-8 pb-2 lg:pb-4 font-bold;
+    }
+
     p {
-      padding-bottom: 0.75rem;
+      @apply max-w-[50rem] pb-2;
     }
 
     a {
