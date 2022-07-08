@@ -27,6 +27,13 @@ export const GET_PROFILE_QUERY = gql`
               }
             }
           }
+          resume {
+            data {
+              attributes {
+                url
+              }
+            }
+          }
         }
       }
     }

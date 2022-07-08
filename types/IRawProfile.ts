@@ -12,11 +12,12 @@ export interface IRawProfile {
     state?: string
     city?: string
     address?: string
-    avatar?: IRawUploadFile
     calendly?: string
     linkedin?: string
     google?: string
     stackoverflow?: string
     github?: string
+    avatar?: IRawUploadFile
+    resume?: IRawUploadFile
   }
 }

@@ -17,7 +17,7 @@ export const MainNav: FC<IMainNavProps> = memo(
     return (
       <nav
         className={classNames(
-          'motion-reduce:animate-none animate-slide-in-left fixed inset-0 pb-16 lg:animate-none lg:flex lg:flex-grow lg:items-center lg:pt-0 lg:py-0 lg:static lg:ml-30 bg-secondary lg:bg-transparent lg:flex-grow',
+          'motion-reduce:animate-none animate-slide-in-left fixed inset-0 pb-16 lg:animate-none lg:flex lg:flex-grow lg:items-center lg:pt-0 lg:py-0 lg:static bg-secondary lg:bg-transparent lg:flex-grow',
           {
             hidden: !isShown,
             'min-h-screen': isShown

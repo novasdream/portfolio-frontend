@@ -67,9 +67,9 @@ module.exports = {
       },
       transparent: colors.transparent,
       primary: {
-        lighter: '#558FFF',
+        lighter: '#f96e43',
         DEFAULT: '#f05423',
-        dark: '#3D7FFF'
+        dark: '#cd3b0e'
       },
       secondary: {
         lighter: '#c32865',

@@ -1,11 +1,13 @@
 export interface IRawUploadFile {
   id?: number
   __typename?: string
-  attributes: {
-    name?: string
-    caption?: string
-    alternativeText?: string
-    mime?: string
-    url: string
+  data: {
+    attributes: {
+      name?: string
+      caption?: string
+      alternativeText?: string
+      mime?: string
+      url: string
+    }
   }
 }

@@ -14,4 +14,5 @@ export interface IProfile {
   google?: string
   stackoverflow?: string
   github?: string
+  resume?: string
 }

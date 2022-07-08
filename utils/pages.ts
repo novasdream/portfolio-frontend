@@ -65,8 +65,6 @@ export const getServerSidePropsForPublicPage = async (
       queries
     )
 
-    console.log(initialReduxState)
-
     return {
       props: {
         initialApolloState: initialApolloState.cache.extract(),
