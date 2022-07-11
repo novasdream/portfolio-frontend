@@ -3,13 +3,13 @@
 exports[`<SiteHead /> should renders correct <SiteHead /> 1`] = `
 <Head>
   <title>
-    Flatrock - Invest in private companies
+    Alex Jin - Senior Software Architect
   </title>
   <meta
     charSet="utf-8"
   />
   <meta
-    content="Invest in private companies"
+    content="Senior Software Architect"
     name="description"
   />
   <meta
@@ -20,15 +20,12 @@ exports[`<SiteHead /> should renders correct <SiteHead /> 1`] = `
     property="og:type"
   />
   <meta
-    content="Flatrock - Invest in private companies"
+    content="Alex Jin - Senior Software Architect"
     property="og:title"
   />
   <meta
-    content="Invest in private companies"
+    content="Senior Software Architect"
     property="og:description"
-  />
-  <link
-    rel="preconnect"
   />
 </Head>
 `;

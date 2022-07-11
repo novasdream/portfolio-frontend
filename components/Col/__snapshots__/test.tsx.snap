@@ -2,7 +2,7 @@
 
 exports[`<Col /> should renders children 1`] = `
 <div
-  className="px-4 w-full"
+  className="w-full"
 >
   test
 </div>

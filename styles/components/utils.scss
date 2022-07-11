@@ -20,7 +20,7 @@
   }
 
   .nav-item:hover {
-    @apply text-primary border-b-primary transition-all duration-200;
+    @apply text-primary border-b-primary transition duration-500 ease-in-out;
 
     svg.arrow-down-icon {
       path {

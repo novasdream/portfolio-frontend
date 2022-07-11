@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Badge /> should renders correct <Badge /> 1`] = `
+<span
+  className="py-1 px-2 lg:px-3 m-1 text-sm font-normal text-white whitespace-nowrap bg-secondary-lighter hover:bg-[#6e6e6e] rounded-[3.125rem] transition duration-500"
+>
+  Badge title
+</span>
+`;

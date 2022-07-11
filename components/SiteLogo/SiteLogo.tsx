@@ -11,7 +11,7 @@ export const SiteLogo: FC<ISiteLogoProps> = memo(
   ({ width = 63, height = 42 }: ISiteLogoProps) => {
     return (
       <Link href="/" passHref>
-        <a className="flex items-center transition ease-in-out hover:scale-125 duration-1000	transform">
+        <a className="flex items-center transition duration-1000 ease-in-out transform hover:scale-125">
           <Image
             width={width}
             height={height}

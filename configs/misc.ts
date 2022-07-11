@@ -60,3 +60,5 @@ export const FOOTER_MENU_ITEMS: INavItem[] = [
     url: PATHS.CONTACT
   }
 ]
+
+export const ARTICLE_DESCRIPTION_MAX_LENGTH = 250

@@ -8,6 +8,10 @@
     @apply font-body;
   }
 
+  h3 {
+    @apply font-display text-lg lg:text-2xl pt-4 lg:pt-8 pb-2 lg:pb-4 font-bold;
+  }
+
   b,
   strong {
     @apply font-bold;

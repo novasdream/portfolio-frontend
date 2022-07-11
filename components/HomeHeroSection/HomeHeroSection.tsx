@@ -8,8 +8,8 @@ export const HomeHeroSection = memo(() => {
   const { profile, content } = useHomeHero()
 
   return (
-    <section className="flex pt-[75px] lg:pt-[83px] pb-[67px] min-h-screen section">
-      <Container className="flex flex-col lg:flex-row items-start pt-14 lg:pt-[8rem] pb-14 lg:pb-[8rem] ">
+    <section className="flex pt-14 lg:pt-[8rem] pb-2 lg:pb-[4rem] section">
+      <Container className="flex flex-col lg:flex-row items-start">
         <Col>
           <h1 className="mb-4 font-display text-2xl lg:text-5xl font-black text-white">
             <span className="font-display text-primary">Hello,</span> I am{' '}
@@ -17,7 +17,7 @@ export const HomeHeroSection = memo(() => {
           </h1>
 
           <h2 className="mb-6 max-w-[40rem] font-body text-base lg:text-lg font-bold text-gray-2">
-            {profile?.bio}
+            {profile?.bio} 💪
           </h2>
 
           <SocialLinks className="flex flex-row mb-30 lg:mb-[10rem] space-x-6" />

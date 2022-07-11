@@ -5,8 +5,6 @@ exports[`<MainNavItem /> should render correct html with default props 1`] = `
   className="nav-item relative"
   key="test-tilte"
   onClick={[Function]}
-  onMouseEnter={[Function]}
-  onMouseLeave={[Function]}
 >
   <Link>
     <a

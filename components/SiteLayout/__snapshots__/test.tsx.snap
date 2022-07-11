@@ -1,13 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<SiteLayout /> should renders correct <SiteLayout /> 1`] = `
-<div
-  className="flex flex-col min-h-screen"
->
+<Fragment>
   <SiteHeader />
-  Test children
-  <SiteFooter
-    theme="light"
-  />
-</div>
+  <main
+    className="bg-secondary"
+  >
+    <Container
+      className="flex flex-col min-h-screen px-5 lg:px-16 pt-[75px] lg:pt-[83px] pb-[67px]"
+    >
+      Test children
+    </Container>
+  </main>
+  <SiteFooter />
+</Fragment>
 `;

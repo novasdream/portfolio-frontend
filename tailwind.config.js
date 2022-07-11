@@ -72,9 +72,9 @@ module.exports = {
         dark: '#cd3b0e'
       },
       secondary: {
-        lighter: '#c32865',
+        lighter: '#4e4e4e',
         DEFAULT: '#272727',
-        dark: '#0A1134'
+        dark: '#171717d'
       },
       gray: {
         1: '#8c8fa0',

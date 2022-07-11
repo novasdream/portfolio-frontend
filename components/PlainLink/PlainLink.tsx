@@ -22,18 +22,18 @@ export const PlainLink: FC<IPlainLinkProps> = memo(
       <>
         {isExternal ? (
           <a
-            className={classNames('hover:underline text-primary', className)}
+            className={classNames('hover:underline', className)}
             href={href}
             target={target}
           >
             {children}
           </a>
         ) : (
-          <span
-            className={classNames('hover:underline text-primary', className)}
-          >
-            <Link href={href}>{children}</Link>
-          </span>
+          <Link href={href}>
+            <a className={classNames('hover:underline', className)}>
+              {children}
+            </a>
+          </Link>
         )}
       </>
     )

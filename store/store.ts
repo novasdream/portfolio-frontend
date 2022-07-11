@@ -4,7 +4,12 @@ import { combineReducers } from 'redux'
 import logger from 'redux-logger'
 
 import { IS_DEV } from '@/configs/env'
-import { homePageReducer, profileReducer } from '@/store/slices'
+import {
+  homePageReducer,
+  postReducer,
+  profileReducer,
+  projectReducer
+} from '@/store/slices'
 
 export const createStore = (preloadedState = null): EnhancedStore => {
   const middlewares = []
@@ -15,7 +20,9 @@ export const createStore = (preloadedState = null): EnhancedStore => {
 
   const reducer = combineReducers({
     profile: profileReducer,
-    homePage: homePageReducer
+    homePage: homePageReducer,
+    post: postReducer,
+    project: projectReducer
   })
 
   const options: ConfigureStoreOptions = {

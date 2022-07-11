@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SectionTitle /> should renders correct <SectionTitle /> 1`] = `
+<h3
+  className="font-display text-xl lg:text-2xl pt-4 lg:pt-8 pb-4 lg:pb-8 font-bold text-white"
+>
+  Section Title
+</h3>
+`;

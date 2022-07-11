@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Cover /> should renders correct <Cover /> 1`] = `
+<figure
+  className="relative mb-8 lg:mb-16"
+>
+  <Image
+    alt="cover"
+    className="lg:rounded"
+    layout="fill"
+    objectFit="cover"
+    objectPosition="center"
+    src="test.png"
+  />
+</figure>
+`;

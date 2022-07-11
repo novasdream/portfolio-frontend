@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProjectSummary /> should renders correct <ProjectSummary /> 1`] = `
+<Article
+  className="flex flex-col lg:flex-row lg:justify-between lg:items-start py-4 lg:py-8 text-white"
+>
+  <div
+    className="flex flex-col justify-between pr-10"
+  >
+    <div>
+      <PlainLink
+        className="text-white"
+        href="/project/project-title"
+      >
+        <h4
+          className="mb-4 font-display !text-lg font-bold"
+        >
+          Project title
+        </h4>
+      </PlainLink>
+      <h5
+        className="font-body lg:text-base font-normal text-gray-2 text-md"
+      >
+        Project description...
+      </h5>
+    </div>
+    <div
+      className="flex flex-row flex-wrap items-center mt-4"
+    />
+  </div>
+</Article>
+`;

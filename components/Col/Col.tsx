@@ -7,7 +7,7 @@ export interface IColProps {
 
 export const Col: FC<IColProps> = memo(
   ({ children, className = 'w-full' }: IColProps) => (
-    <div className={`px-4 ${className}`}>{children}</div>
+    <div className={`${className}`}>{children}</div>
   )
 )
 

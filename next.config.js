@@ -9,7 +9,7 @@ const nextOptions = {
   trailingSlash: true,
   reactStrictMode: true,
   images: {
-    domains: ['localhost']
+    domains: ['localhost', 'res.cloudinary.com']
   },
   eslint: {
     dirs: [

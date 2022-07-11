@@ -1,11 +1,17 @@
 import { memo } from 'react'
 
-import { HomeHeroSection } from '@/components'
+import {
+  HomeFeaturedPostsSection,
+  HomeFeaturedProjectsSection,
+  HomeHeroSection
+} from '@/components'
 
 export const HomePageTemplate = memo(() => {
   return (
     <>
       <HomeHeroSection />
+      <HomeFeaturedPostsSection />
+      <HomeFeaturedProjectsSection />
     </>
   )
 })

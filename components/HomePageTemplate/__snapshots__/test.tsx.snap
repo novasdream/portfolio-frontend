@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomePageTemplate /> should renders correct <HomePageTemplate /> 1`] = `
+<Fragment>
+  <HomeHeroSection />
+  <HomeFeaturedPostsSection />
+  <HomeFeaturedProjectsSection />
+</Fragment>
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PageTitle /> should renders correct <PageTitle /> 1`] = `
+<h1
+  className="mb-4 font-display text-2xl lg:text-5xl font-black text-white"
+>
+  Page Title
+</h1>
+`;
