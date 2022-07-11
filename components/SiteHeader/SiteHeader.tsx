@@ -61,7 +61,7 @@ export const SiteHeader: FC<ISiteHeaderProps> = memo(() => {
           </div>
         </Row>
         <Row>
-          <Divider className="bg-[#333333]" />
+          <Divider className="!my-0 bg-[#333333]" />
         </Row>
       </Container>
     </header>

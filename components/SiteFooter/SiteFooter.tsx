@@ -9,7 +9,7 @@ export const SiteFooter: FC<ISiteFooterProps> = memo(() => {
     <footer className="fixed bottom-0 w-full backdrop-blur-md">
       <Container className="flex flex-col px-5 lg:px-16 w-full lg:flex-no-wrap">
         <Row>
-          <Divider className="bg-[#333333]" />
+          <Divider className="!my-0 bg-[#333333]" />
         </Row>
         <Row className="flex-row justify-between my-4">
           <span className="font-body text-white">© Betafoenix 2022.</span>
