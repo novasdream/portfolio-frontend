@@ -4,7 +4,7 @@ import { Col, Container, PostSummary, SectionTitle } from '@/components'
 import { useHomeFeaturedPosts } from '@/hooks'
 
 export const HomeFeaturedPostsSection = memo(() => {
-  const { featuredPosts } = useHomeFeaturedPosts()
+  const { visible, featuredPosts } = useHomeFeaturedPosts()
 
   return (
     <section className="flex pt-6 lg:pt-[4rem] pb-6 lg:pb-[4rem] section">
@@ -15,6 +15,12 @@ export const HomeFeaturedPostsSection = memo(() => {
           {featuredPosts?.map((post) => (
             <PostSummary key={post.slug} pathPrefix="/post" post={post} />
           ))}
+
+          {!visible && (
+            <p className="py-4 font-display text-white">
+              No featured post available yet...
+            </p>
+          )}
         </Col>
       </Container>
     </section>

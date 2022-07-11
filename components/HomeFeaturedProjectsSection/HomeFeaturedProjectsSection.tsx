@@ -7,7 +7,7 @@ export interface IHomeFeaturedProjectsSectionProps {}
 
 export const HomeFeaturedProjectsSection: FC<IHomeFeaturedProjectsSectionProps> =
   memo(() => {
-    const { featuredProjects } = useHomeFeaturedProjects()
+    const { visible, featuredProjects } = useHomeFeaturedProjects()
 
     return (
       <section className="flex pt-6 lg:pt-[4rem] pb-6 lg:pb-[4rem] section">
@@ -22,6 +22,12 @@ export const HomeFeaturedProjectsSection: FC<IHomeFeaturedProjectsSectionProps> 
                 project={project}
               />
             ))}
+
+            {!visible && (
+              <p className="py-4 font-display text-white">
+                No featured project available yet...
+              </p>
+            )}
           </Col>
         </Container>
       </section>

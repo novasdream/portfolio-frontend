@@ -7,7 +7,7 @@ export interface IPostSummaryListSectionProps {}
 
 export const PostSummaryListSection: FC<IPostSummaryListSectionProps> = memo(
   () => {
-    const { posts } = usePostSummaryList()
+    const { visible, posts } = usePostSummaryList()
 
     return (
       <section className="flex pt-14 lg:pt-[4rem] pb-2 lg:pb-[4rem] section">
@@ -18,6 +18,12 @@ export const PostSummaryListSection: FC<IPostSummaryListSectionProps> = memo(
             {posts?.map((post) => (
               <PostSummary key={post.slug} pathPrefix="/post" post={post} />
             ))}
+
+            {!visible && (
+              <p className="py-4 font-display text-white">
+                No post available yet...
+              </p>
+            )}
           </Col>
         </Container>
       </section>

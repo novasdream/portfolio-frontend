@@ -7,7 +7,7 @@ export interface IProjectSummaryListSectionProps {}
 
 export const ProjectSummaryListSection: FC<IProjectSummaryListSectionProps> =
   memo(() => {
-    const { projects } = useProjectSummaryList()
+    const { visible, projects } = useProjectSummaryList()
 
     return (
       <section className="flex pt-14 lg:pt-[4rem] pb-2 lg:pb-[4rem] section">
@@ -22,6 +22,12 @@ export const ProjectSummaryListSection: FC<IProjectSummaryListSectionProps> =
                 project={project}
               />
             ))}
+
+            {!visible && (
+              <p className="py-4 font-display text-white">
+                No project available yet...
+              </p>
+            )}
           </Col>
         </Container>
       </section>

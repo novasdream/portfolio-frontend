@@ -9,7 +9,7 @@ exports[`<SiteFooter /> should renders correct <SiteFooter /> 1`] = `
   >
     <Row>
       <Divider
-        className="bg-[#333333]"
+        className="!my-0 bg-[#333333]"
       />
     </Row>
     <Row
