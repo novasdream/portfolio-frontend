@@ -19,10 +19,10 @@
     }
 
     pre {
-      @apply !bg-black !lg:rounded !py-4 !lg:py-8;
+      @apply bg-black lg:rounded p-4 lg:p-8 overflow-y-auto;
       
       code {
-        @apply !font-body !text-base !lg:text-lg !text-white;
+        @apply font-body text-base lg:text-lg text-white;
       }
     }
 
