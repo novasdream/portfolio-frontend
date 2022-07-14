@@ -19,7 +19,7 @@ export const PostDetailTemplate = memo(() => {
     <section className="flex pt-14 lg:pt-[4rem] pb-2 lg:pb-[4rem] section">
       <Container className="flex flex-col lg:flex-row items-start">
         <Col>
-          <Article className='max-w-[50rem]'>
+          <Article className="max-w-[50rem]">
             <PageTitle title={post.title} />
             <PageSubtitle title={post.description} />
             <Cover
