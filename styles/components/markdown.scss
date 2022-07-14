@@ -20,6 +20,7 @@
 
     pre {
       @apply !bg-black !lg:rounded !py-4 !lg:py-8;
+      
       code {
         @apply !font-body !text-base !lg:text-lg !text-white;
       }
