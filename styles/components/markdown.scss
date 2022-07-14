@@ -14,6 +14,12 @@
       @apply underline hover:text-primary transition duration-500 ease-in-out;
     }
 
+    pre {
+      code {
+        @apply font-body text-base lg:text-lg text-white py-2;
+      }
+    }
+
     ol {
       list-style-type: decimal;
       padding-inline-start: 2rem !important;
