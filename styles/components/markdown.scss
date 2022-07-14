@@ -6,6 +6,10 @@
       @apply font-display text-xl lg:text-2xl pt-4 lg:pt-8 pb-4 lg:pb-8 font-bold;
     }
 
+    h4 {
+      @apply font-display text-lg lg:text-xl pt-4 lg:pt-8 pb-4 lg:pb-8 font-bold;
+    }
+
     p {
       @apply max-w-[50rem] pb-2;
     }
