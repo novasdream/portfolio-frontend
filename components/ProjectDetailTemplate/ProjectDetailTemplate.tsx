@@ -19,7 +19,7 @@ export const ProjectDetailTemplate = memo(() => {
     <section className="flex pt-14 lg:pt-[4rem] pb-2 lg:pb-[4rem] section">
       <Container className="flex flex-col lg:flex-row items-start">
         <Col>
-          <Article>
+          <Article className="max-w-[50rem]">
             <PageTitle title={project.title} />
             <PageSubtitle title={project.description} />
             <Cover
