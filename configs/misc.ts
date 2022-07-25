@@ -31,11 +31,11 @@ export const MAIN_NAV_ITEMS: INavItem[] = [
     title: 'Post',
     url: PATHS.POST
   },
-  {
-    key: 'main-nav-item-key-contact',
-    title: 'Contact',
-    url: PATHS.CONTACT
-  }
+  // {
+  //   key: 'main-nav-item-key-contact',
+  //   title: 'Contact',
+  //   url: PATHS.CONTACT
+  // }
 ]
 
 export const FOOTER_MENU_ITEMS: INavItem[] = [
