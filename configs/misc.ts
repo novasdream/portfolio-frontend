@@ -16,11 +16,11 @@ export const PATHS = {
 }
 
 export const MAIN_NAV_ITEMS: INavItem[] = [
-  {
-    key: 'main-nav-item-key-experience',
-    title: 'Experience',
-    url: PATHS.EXPERIENCE
-  },
+  // {
+  //   key: 'main-nav-item-key-experience',
+  //   title: 'Experience',
+  //   url: PATHS.EXPERIENCE
+  // },
   {
     key: 'main-nav-item-key-project',
     title: 'Project',
