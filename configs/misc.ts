@@ -30,7 +30,7 @@ export const MAIN_NAV_ITEMS: INavItem[] = [
     key: 'main-nav-item-key-post',
     title: 'Post',
     url: PATHS.POST
-  },
+  }
   // {
   //   key: 'main-nav-item-key-contact',
   //   title: 'Contact',
