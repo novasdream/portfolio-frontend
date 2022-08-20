@@ -44,7 +44,6 @@ export const SiteHead: FC<ISiteHeadProps> = memo(
         setTimeout(ldinsp, 0);
         })();
         </script> */}
-
       </Head>
     )
   }
