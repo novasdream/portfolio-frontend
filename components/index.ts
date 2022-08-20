@@ -1,5 +1,6 @@
 // Logos & Icons
 export * from './SiteLogo'
+export * from './Signature'
 export * from './CloseIcon'
 export * from './CheckIcon'
 export * from './CheckRoundIcon'

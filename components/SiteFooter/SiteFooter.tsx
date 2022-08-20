@@ -13,7 +13,7 @@ export const SiteFooter: FC<ISiteFooterProps> = memo(() => {
         </Row>
         <Row className="flex-row justify-between my-4">
           <span className="font-body text-white">
-            © Betafoenix 2022. Powered by NextJS & Strapi
+            © Alex Jin 2022. Powered by NextJS & Strapi
           </span>
           <SocialLinks className="flex flex-row space-x-4 lg:space-x-10" />
         </Row>
