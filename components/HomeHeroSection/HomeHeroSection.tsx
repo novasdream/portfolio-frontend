@@ -13,7 +13,7 @@ export const HomeHeroSection = memo(() => {
         <Col>
           <h1 className="mb-4 font-display text-2xl lg:text-5xl font-black text-white">
             <span className="font-display text-primary">Hello,</span> I am{' '}
-            {profile?.firstName} {profile?.lastName} 👋
+            {profile?.firstName} 👋
           </h1>
 
           <h2 className="mb-6 max-w-[40rem] font-body text-base lg:text-lg font-bold text-gray-2">
