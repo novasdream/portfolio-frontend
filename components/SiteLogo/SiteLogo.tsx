@@ -16,7 +16,7 @@ export const SiteLogo: FC<ISiteLogoProps> = memo(
             width={width}
             height={height}
             src="/images/logo.svg"
-            className="animate-pulse"
+            className="animate-zoom-in-out"
             alt="logo"
           />
         </a>
