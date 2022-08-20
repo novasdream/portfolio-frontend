@@ -8,14 +8,14 @@ export interface ISiteLogoProps {
 }
 
 export const SiteLogo: FC<ISiteLogoProps> = memo(
-  ({ width = 63, height = 42 }: ISiteLogoProps) => {
+  ({ width = 63, height = 63 }: ISiteLogoProps) => {
     return (
       <Link href="/" passHref>
         <a className="flex items-center transition duration-1000 ease-in-out transform hover:scale-125">
           <Image
             width={width}
             height={height}
-            src="/images/phoenix-logo.png"
+            src="/images/logo.svg"
             className="animate-pulse"
             alt="logo"
           />
